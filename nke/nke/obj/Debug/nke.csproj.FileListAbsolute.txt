@@ -1,0 +1,98 @@
+\\Dc-cloud-2\wsr-5\Наработки (Сессия2)\nke\nke\bin\Debug\nke.exe.config
+\\Dc-cloud-2\wsr-5\Наработки (Сессия2)\nke\nke\bin\Debug\nke.exe
+\\Dc-cloud-2\wsr-5\Наработки (Сессия2)\nke\nke\bin\Debug\nke.pdb
+\\Dc-cloud-2\wsr-5\Наработки (Сессия2)\nke\nke\obj\Debug\MainWindow.g.cs
+\\Dc-cloud-2\wsr-5\Наработки (Сессия2)\nke\nke\obj\Debug\App.g.cs
+\\Dc-cloud-2\wsr-5\Наработки (Сессия2)\nke\nke\obj\Debug\nke_MarkupCompile.cache
+\\Dc-cloud-2\wsr-5\Наработки (Сессия2)\nke\nke\obj\Debug\nke_MarkupCompile.lref
+\\Dc-cloud-2\wsr-5\Наработки (Сессия2)\nke\nke\obj\Debug\MainWindow.baml
+\\Dc-cloud-2\wsr-5\Наработки (Сессия2)\nke\nke\obj\Debug\nke.g.resources
+\\Dc-cloud-2\wsr-5\Наработки (Сессия2)\nke\nke\obj\Debug\nke.Properties.Resources.resources
+\\Dc-cloud-2\wsr-5\Наработки (Сессия2)\nke\nke\obj\Debug\nke.csproj.GenerateResource.Cache
+\\Dc-cloud-2\wsr-5\Наработки (Сессия2)\nke\nke\obj\Debug\nke.csproj.CoreCompileInputs.cache
+\\Dc-cloud-2\wsr-5\Наработки (Сессия2)\nke\nke\obj\Debug\nke.exe
+\\Dc-cloud-2\wsr-5\Наработки (Сессия2)\nke\nke\obj\Debug\nke.pdb
+\\Dc-cloud-2\wsr-5\Наработки (Сессия2)\nke\nke\obj\Debug\UserPanel.g.cs
+\\Dc-cloud-2\wsr-5\Наработки (Сессия2)\nke\nke\obj\Debug\UserPanel.baml
+\\Dc-cloud-2\wsr-5\Наработки (Сессия2)\nke\nke\bin\Debug\EntityFramework.dll
+\\Dc-cloud-2\wsr-5\Наработки (Сессия2)\nke\nke\bin\Debug\EntityFramework.SqlServer.dll
+\\Dc-cloud-2\wsr-5\Наработки (Сессия2)\nke\nke\bin\Debug\EntityFramework.xml
+\\Dc-cloud-2\wsr-5\Наработки (Сессия2)\nke\nke\bin\Debug\EntityFramework.SqlServer.xml
+\\Dc-cloud-2\wsr-5\Наработки (Сессия2)\nke\nke\obj\Debug\nke_Content.g.cs
+\\Dc-cloud-2\wsr-5\Наработки (Сессия2)\nke\nke\bin\Debug\ru\EntityFramework.resources.dll
+\\Dc-cloud-2\wsr-5\Наработки (Сессия2)\nke\nke\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+\\Dc-cloud-2\wsr-5\Наработки (Сессия2)\nke\nke\obj\Debug\nke.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\nke\nke\obj\Debug\nke.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\nke\nke\obj\Debug\App.g.cs
+C:\Users\Admin\Desktop\nke\nke\obj\Debug\nke_Content.g.cs
+C:\Users\Admin\Desktop\nke\nke\obj\Debug\nke_MarkupCompile.cache
+C:\Users\Admin\Desktop\nke\nke\obj\Debug\nke_MarkupCompile.lref
+C:\Users\Admin\Desktop\nke\nke\obj\Debug\nke.exe
+C:\Users\Admin\Desktop\nke\nke\obj\Debug\nke.pdb
+C:\Users\Admin\Desktop\nke\nke\bin\Debug\nke.exe.config
+C:\Users\Admin\Desktop\nke\nke\bin\Debug\nke.exe
+C:\Users\Admin\Desktop\nke\nke\bin\Debug\nke.pdb
+C:\Users\Admin\Desktop\nke\nke\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Desktop\nke\nke\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\nke\nke\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Desktop\nke\nke\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\nke\nke\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Admin\Desktop\nke\nke\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\Admin\Desktop\nke\nke\obj\Debug\nke.g.resources
+C:\Users\Admin\Desktop\nke\nke\obj\Debug\nke.Properties.Resources.resources
+C:\Users\Admin\Desktop\nke\nke\obj\Debug\nke.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\nke\nke\obj\Debug\nke.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\nke\nke\obj\Debug\nke.csproj.CopyComplete
+C:\Users\Admin\Desktop\nke\nke\obj\Debug\Pages\MainWindow.g.cs
+C:\Users\Admin\Desktop\nke\nke\obj\Debug\Pages\UserPanel.g.cs
+C:\Users\Admin\Desktop\nke\nke\obj\Debug\Pages\MainWindow.baml
+C:\Users\Admin\Desktop\nke\nke\obj\Debug\Pages\UserPanel.baml
+C:\Users\wsr\Desktop\nke\nke\bin\Debug\nke.exe.config
+C:\Users\wsr\Desktop\nke\nke\bin\Debug\nke.exe
+C:\Users\wsr\Desktop\nke\nke\bin\Debug\nke.pdb
+C:\Users\wsr\Desktop\nke\nke\bin\Debug\EntityFramework.dll
+C:\Users\wsr\Desktop\nke\nke\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\wsr\Desktop\nke\nke\bin\Debug\EntityFramework.xml
+C:\Users\wsr\Desktop\nke\nke\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\wsr\Desktop\nke\nke\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\wsr\Desktop\nke\nke\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\wsr\Desktop\nke\nke\obj\Debug\nke.csprojResolveAssemblyReference.cache
+C:\Users\wsr\Desktop\nke\nke\obj\Debug\Pages\MainWindow.g.cs
+C:\Users\wsr\Desktop\nke\nke\obj\Debug\Pages\UserPanel.g.cs
+C:\Users\wsr\Desktop\nke\nke\obj\Debug\App.g.cs
+C:\Users\wsr\Desktop\nke\nke\obj\Debug\nke_Content.g.cs
+C:\Users\wsr\Desktop\nke\nke\obj\Debug\nke_MarkupCompile.cache
+C:\Users\wsr\Desktop\nke\nke\obj\Debug\nke_MarkupCompile.lref
+C:\Users\wsr\Desktop\nke\nke\obj\Debug\Pages\MainWindow.baml
+C:\Users\wsr\Desktop\nke\nke\obj\Debug\Pages\UserPanel.baml
+C:\Users\wsr\Desktop\nke\nke\obj\Debug\nke.g.resources
+C:\Users\wsr\Desktop\nke\nke\obj\Debug\nke.Properties.Resources.resources
+C:\Users\wsr\Desktop\nke\nke\obj\Debug\nke.csproj.GenerateResource.Cache
+C:\Users\wsr\Desktop\nke\nke\obj\Debug\nke.csproj.CoreCompileInputs.cache
+C:\Users\wsr\Desktop\nke\nke\obj\Debug\nke.exe
+C:\Users\wsr\Desktop\nke\nke\obj\Debug\nke.pdb
+C:\Users\Admin\Desktop\nkeProject v2\nke\bin\Debug\nke.exe.config
+C:\Users\Admin\Desktop\nkeProject v2\nke\bin\Debug\nke.exe
+C:\Users\Admin\Desktop\nkeProject v2\nke\bin\Debug\nke.pdb
+C:\Users\Admin\Desktop\nkeProject v2\nke\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Desktop\nkeProject v2\nke\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\nkeProject v2\nke\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Desktop\nkeProject v2\nke\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\nkeProject v2\nke\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Admin\Desktop\nkeProject v2\nke\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\Admin\Desktop\nkeProject v2\nke\obj\Debug\nke.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\nkeProject v2\nke\obj\Debug\Pages\MainWindow.g.cs
+C:\Users\Admin\Desktop\nkeProject v2\nke\obj\Debug\Pages\UserPanel.g.cs
+C:\Users\Admin\Desktop\nkeProject v2\nke\obj\Debug\App.g.cs
+C:\Users\Admin\Desktop\nkeProject v2\nke\obj\Debug\nke_Content.g.cs
+C:\Users\Admin\Desktop\nkeProject v2\nke\obj\Debug\nke_MarkupCompile.cache
+C:\Users\Admin\Desktop\nkeProject v2\nke\obj\Debug\nke_MarkupCompile.lref
+C:\Users\Admin\Desktop\nkeProject v2\nke\obj\Debug\Pages\MainWindow.baml
+C:\Users\Admin\Desktop\nkeProject v2\nke\obj\Debug\Pages\UserPanel.baml
+C:\Users\Admin\Desktop\nkeProject v2\nke\obj\Debug\nke.g.resources
+C:\Users\Admin\Desktop\nkeProject v2\nke\obj\Debug\nke.Properties.Resources.resources
+C:\Users\Admin\Desktop\nkeProject v2\nke\obj\Debug\nke.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\nkeProject v2\nke\obj\Debug\nke.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\nkeProject v2\nke\obj\Debug\nke.csproj.CopyComplete
+C:\Users\Admin\Desktop\nkeProject v2\nke\obj\Debug\nke.exe
+C:\Users\Admin\Desktop\nkeProject v2\nke\obj\Debug\nke.pdb

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="2d7674fc-0863-4d77-b860-ae8ffd7c12f6" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8000/ServerChat/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="6ca36a2f-2d3e-4a85-87ad-27c90f7d9347" SourceId="1" SourceUrl="http://localhost:8000/ServerChat/?xsd=xsd1" />
+    <MetadataFile FileName="ServerChat.wsdl" MetadataType="Wsdl" ID="ceb9dff7-ab10-4dfe-97ce-462890f1c0ca" SourceId="1" SourceUrl="http://localhost:8000/ServerChat/?wsdl" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="4616bc41-ab9a-48a7-a963-16360d05e0bb" SourceId="1" SourceUrl="http://localhost:8000/ServerChat/?xsd=xsd2" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="c803bca4-7039-4a52-be9b-b70b4f5c97a2" SourceId="1" SourceUrl="http://localhost:8000/ServerChat/?disco" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="02f6ae53-dc14-444a-bf70-10e82ca86543" SourceId="1" SourceUrl="http://localhost:8000/ServerChat/?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

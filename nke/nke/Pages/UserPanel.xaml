@@ -1,0 +1,167 @@
+﻿<Window x:Name="window" x:Class="nke.UserPanel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:nke"
+        xmlns:models="clr-namespace:nke.Models"
+        mc:Ignorable="d"
+        xmlns:wf="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+        Height="720" Width="1280"
+        WindowStyle="None" ResizeMode="NoResize" WindowState="Maximized"
+        Title="UserPanel" WindowStartupLocation="CenterScreen" Closing="window_Closing">
+    <Window.Resources>
+        <Style x:Key="RoundedButtonStyle" TargetType="{x:Type Button}">
+            <Setter Property="FontSize" Value="15"></Setter>
+            <Setter Property="Foreground" Value="Black"></Setter>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="15" Background="#E0E0E0" BorderThickness="1" Padding="10, 2">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <DataTemplate x:Key="listTemplate">
+            <StackPanel Margin="5">
+                <CheckBox Content="{Binding ProgrammName}" IsChecked="{Binding IsChecked}" Checked="CheckBox_Checked"/>
+            </StackPanel>
+        </DataTemplate>
+
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="95" x:Name="TopPanel"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+
+        <!--Header-->
+        <Rectangle Grid.Row="0" Fill="#E0E0E0"/>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="0">
+            <TextBlock Foreground="Black" FontWeight="Bold" FontSize="18" x:Name="TitleText"></TextBlock>
+        </StackPanel>
+
+        <!--Programms-->
+        <ScrollViewer Grid.Row="1" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Hidden" Background="#BDBDBD">
+            <StackPanel HorizontalAlignment="Stretch" Height="60">
+                <StackPanel Margin="0 10 0 0" x:Name="spProgramms" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </StackPanel>
+        </ScrollViewer>
+
+        <!--Main Grid with 3 Columns-->
+        <Grid Grid.Row="2" Background="#BDBDBD">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="270"/>
+                <ColumnDefinition Width="auto" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="250" />
+            </Grid.ColumnDefinitions>
+
+            <!--File's Grid-->
+            <Grid Grid.Column="0" Background="#BDBDBD">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="0.5*"/>
+                    <RowDefinition Height="0.5*"/>
+                </Grid.RowDefinitions>
+                <!--Local files-->
+                <Grid Grid.Row="0" Margin="5" x:Name="GridLocal" Background="#E0E0E0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="0.17*"/>
+                        <RowDefinition Height="0.68*"/>
+                        <RowDefinition Height="0.15*"/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Text="Local" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" Grid.Row="0"></TextBlock>
+                    <WebBrowser x:Name="BrowserPublic" VerticalAlignment="Stretch" MinHeight="160" Grid.Row="1" AllowDrop="True"></WebBrowser>
+                    <StackPanel Orientation="Horizontal" Height="40" Grid.Row="2"  HorizontalAlignment="Center">
+                        <Button Click="PublicBack_Click" x:Name="PublicBack" Height="25" Width="100" Margin="5">Назад</Button>
+                        <Button Click="PublicForward_Click" x:Name="PublicForward" Height="25" Width="100" Margin="5">Вперед</Button>
+                    </StackPanel>
+
+                </Grid>
+
+                <!--Network files-->
+                <Grid Grid.Row="1" Margin="5" x:Name="GridNetwork" Background="#E0E0E0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="0.2*"/>
+                        <RowDefinition Height="0.65*"/>
+                        <RowDefinition Height="0.15*"/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Text="Network" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" Grid.Row="0"></TextBlock>
+                    <WebBrowser x:Name="BrowserUser" VerticalAlignment="Stretch" MinHeight="160" Margin="0 0 0 5" Grid.Row="1"></WebBrowser>
+                    <StackPanel Orientation="Horizontal" Height="40" Grid.Row="2" HorizontalAlignment="Center">
+                        <Button Click="UserBack_Click" x:Name="UserBack" Height="25" Width="100" Margin="3">Назад</Button>
+                        <Button Click="UserForward_Click" x:Name="UserForward" Height="25" Width="100" Margin="4">Вперед</Button>
+                    </StackPanel>
+
+                </Grid>
+
+            </Grid>
+
+            <GridSplitter Margin="0 10 0 10" Grid.Column="1" ShowsPreview="False" Width="3" HorizontalAlignment="Center" VerticalAlignment="Stretch" />
+
+
+            <!--Programm's Panel-->
+            <WindowsFormsHost x:Name="StudentPanel" Visibility="Visible" Grid.Column="2" Margin="5" Background="#E0E0E0">
+                <wf:Panel x:Name="panel1"></wf:Panel>
+            </WindowsFormsHost>
+            <!--Admin's Panel-->
+            <Grid Grid.Column="2" x:Name="AdminPanel" Visibility="Visible">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="0.08*"/>
+                    <RowDefinition Height="0.84*"/>
+                    <RowDefinition Height="0.08*"/>
+                </Grid.RowDefinitions>
+
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Height="50">
+                    <TextBlock Text="Выберите пользователя:" FontSize="20" VerticalAlignment="Center"/>
+                    <ComboBox x:Name="UsersCB" Height="30" Margin="10" SelectionChanged="UsersCB_SelectionChanged"/>
+                </StackPanel>
+
+                    <ListBox x:Name="ProgrammsCheckBox" Grid.Row="1" Margin="5" ItemsSource="{Binding}" ItemTemplate="{StaticResource listTemplate}" MouseDoubleClick="ProgrammsCheckBox_MouseDoubleClick"/>
+
+                
+                <Grid Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.5*"/>
+                        <ColumnDefinition Width="0.5*"/>
+                    </Grid.ColumnDefinitions>
+                    <Button x:Name="saveP" Content="Сохранить" Click="saveP_Click" Height="30" Margin="5 0 0 5"  Grid.Column="0"/>
+                    <Button x:Name="addP" Content="Добавить другую" Click="addP_Click" Height="30" Margin="10 0 5 5"  Grid.Column="1"/>
+                </Grid>
+
+            </Grid>
+
+            <GridSplitter Margin="0 10 0 10" Grid.Column="3" ShowsPreview="False" Width="3" HorizontalAlignment="Center" VerticalAlignment="Stretch" />
+
+            
+            <!--Chat-->
+            <Grid Grid.Column="4" Background="#BDBDBD">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="0*" x:Name="ChatRow1"/>
+                    <RowDefinition Height="0.92*" x:Name="ChatRow2"/>
+                    <RowDefinition Height="0.08*"/>
+                </Grid.RowDefinitions>
+
+                <ListBox ScrollViewer.HorizontalScrollBarVisibility="Disabled" x:Name="ChatList" Margin="5" Grid.Row="1"/>
+
+                <TextBox x:Name="MessageText" KeyDown="MessageText_KeyDown" Margin="5 0 5 5" Grid.Row="2" Height="30" VerticalContentAlignment="Center" PreviewDragEnter="MessageText_DragEnter" Drop="MessageText_Drop" DragEnter="MessageText_DragEnter" DragOver="MessageText_DragOver" PreviewDrop="MessageText_Drop" PreviewDragOver="MessageText_DragOver" AllowDrop="True" TextChanged="MessageText_TextChanged" PreviewKeyDown="MessageText_PreviewKeyDown">
+                    <TextBox.ContextMenu>
+                        <ContextMenu x:Name="ContextMenu" Height="100">
+                        </ContextMenu>
+                    </TextBox.ContextMenu>
+                </TextBox>
+
+            </Grid>
+
+        </Grid>
+    </Grid>
+</Window>
